@@ -1,37 +1,37 @@
-![Preview](https://github.com/Jupiter-Github/Recipe-Finder/assets/165056474/dfa3d7a2-e5be-4fae-9eff-771a32972d76)
 # Recipe Finder Web Application
 
- Recipe Finder is a recipe web application, where a user can search for a variety of recipes and find the ingredients and quantities needed to make each recipe item. Also, favorite recipe items can be saved in the browser's local storage. It is easy to find different recipes for vegetarians and meat eaters, as well as those who want to lose weight.
+Recipe Finder is a recipe web application where users can search for a variety of recipes, view the ingredients and quantities required to make each recipe, and save their favorite recipes. Users can also filter recipes based on specific categories or dietary preferences such as vegetarian, gluten-free, etc. The app provides an easy way for users to discover and store new recipes.
 
-You're one-stop for recipes, It is the best app for any type of cooking and cooking level. Browse what's trending, plan your meals with our grocery list tool, and browse recipes by ingredient. There's nothing like a well-prepared meal to make you feel like a culinary genius!
+You're one stop for discovering delicious recipes that are perfect for any level of cooking. Whether you're a beginner or a pro, this app helps you find trending recipes, plan meals, and even create a grocery list.
 
 ## Features
 
-- Users can search different kinds of recipes and get the ingredients for these
-- Users can save specific recipes as the favorites
-- Favorite recipes are also stored in the local storage of the client's browser
-- It is a fully responsive web application, so you can easily view it on your mobile device as well.
+- Users can search for recipes by keywords, ingredients, or dietary restrictions (e.g., vegetarian, gluten-free).
+- Each recipe shows the ingredients and quantities required to make the dish.
+- Users can mark recipes as favorites and save them to their favorites list.
+- Favorite recipes are stored in the browser's local storage, making them accessible across sessions.
+- The app is fully responsive, so users can easily view it on both desktop and mobile devices.
+- Filtering options are available to narrow down recipes based on categories (e.g., breakfast, lunch, dinner).
+- Detailed recipe view includes preparation time, serving size, ingredients, and cooking instructions.
 
+## View the App (Hosted on Vercel)
 
-## View the app (Hosted on Vercel):
-https://recipe-finder-rho-gilt.vercel.app/
+Check out the live version of the app: [Recipe Finder Web App](https://recipe-finder-rho-gilt.vercel.app/)
 
-## Tools
-- React
-- Redux
-- React-Router
-- Material -UI
-  
-## How to use this repo?
-Download or clone this repo and run the following command in the terminal:
+## Tools & Technologies
 
-```bash
-npm install
-or
-npm i
-```
+- **ReactJS**: Frontend library for building the user interface.
+- **Redux**: State management to handle data flow and app state.
+- **React Router**: For navigating between different pages in the app.
+- **Material-UI**: A popular React component library used for styling the app and creating a responsive design.
+- **Edamam API**: For fetching recipes and their ingredients.
 
-## Conclusion:
-A recipe web application based not only on a list of recipes with ingredients but a database created by food lovers, for food lovers. Search through thousands of the best recipes worldwide and find what you're looking for without leaving your daily routine Give it a go!
+## How to Use This Repository
 
-## Thanks for visiting this repo!
+To run this project locally, follow the steps below:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/parthasarathy27/Recipe-App-FE.git
+   cd Recipe-App-FE
